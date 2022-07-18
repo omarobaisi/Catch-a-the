@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dcd23d6329.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="game">
+      <div class="time"><span class="timeNumber">-</span> Second Left</div>
+      <div class="playground">
+        <div class="frogs"></div>
+        <div class="looseMessage">Alas, no more froggies for you</div>
+      </div>
+      <div class="info">
+        <div class="frogsLeft">
+          <span class="frogNumber">-</span> Frogs left
+        </div>
+        <div class="start">Start</div>
+        <div class="afterStart">Catch to frogs!</div>
+        <div class="level">Level <span class="levelNumber">-</span></div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+  </body>
+</html>
